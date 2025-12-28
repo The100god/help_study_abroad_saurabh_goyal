@@ -28,7 +28,7 @@ A modern, responsive admin dashboard built to assess proficiency in **Next.js (A
 1.  **Clone the repository:**
     ```bash
     git clone <your-repo-link>
-    cd mui-zustand-assessment
+    cd help_study_abroad_saurabh_goyal
     ```
 
 2.  **Install dependencies:**
@@ -60,8 +60,8 @@ A modern, responsive admin dashboard built to assess proficiency in **Next.js (A
 
 The application connects to the real `dummyjson.com/auth/login` endpoint. You must use valid credentials from their database.
 
-* **Username:** `kminchelle`
-* **Password:** `0lelplR`
+* **Username:** `emilys`
+* **Password:** `emilyspass`
 
 ---
 
@@ -85,7 +85,6 @@ To ensure a snappy user experience and reduce load on the API, a **Client-Side C
 
 ### UI Optimization
 * **Debouncing:** The search input in the Users list utilizes a `setTimeout` hook to wait **500ms** after the user stops typing before triggering the API call / State update. This prevents flooding the backend with requests on every keystroke.
-* **MUI Grid2:** Used the modern `Unstable_Grid2` components for better CSS Flexbox performance and simplified props API.
 
 ---
 
